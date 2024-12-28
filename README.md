@@ -1,0 +1,3 @@
+# Uncommon Code Error: ZeroDivisionError
+
+This repository demonstrates a common error in DApps (Decentralized Applications) related to division by zero.  The bug is present in the `divide` function, resulting in an unexpected error when `b` is zero. This scenario is particularly crucial in DApps because unexpected exceptions can halt the entire process affecting the integrity of smart contracts or leading to unexpected behavior of the DApp.  The solution provided demonstrates how to prevent this type of error robustly using appropriate error handling techniques.
